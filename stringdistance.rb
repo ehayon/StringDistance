@@ -1,3 +1,6 @@
+# Perform the Levenshtein Distance algorithm to calculate
+# the distance between s1 and s2
+# Useful for more intelligent searching
 def get_distance(s1 ,s2)
   m = Hash.new
   (s1.length + 1).times do |i|
