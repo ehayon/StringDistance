@@ -1,3 +1,6 @@
+# Perform the Levenshtein Distance algorithm to calculate
+# the distance between s1 and s2
+# Useful for more intelligent searching
 module StringDistance
   def StringDistance.get_distance(s1 ,s2)
     m = Hash.new
